@@ -2,9 +2,9 @@
 require "../connection.php";
 
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
-    $recipe_id = $data->recipe_id;
-    $user_id = $data->user_id;
-    $comment = $data->comment;
+    $recipe_id = $_POST['recipe_id'];
+    $user_id = $_POST['user_id'];
+    $comment = $_POST['comment'];
 
     $stmt = $conn->prepare("insert into comments (recipe_id, user_id, comment) values (?, ?, ?)");
     $stmt->bind_param("iis", $recipe_id, $user_id, $comment);

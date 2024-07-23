@@ -1,10 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+// import "./styles/App.css";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import RecipeCard from "./components/RecipeCard";
 
-function App() {
+const App = () => {
   return (
-    
+    <div className="App">
+      <Home />
+      <RecipeCard/>
+      <Login />
+    </div>
   );
-}
+};
 
 export default App;
