@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $password = '';
-$db_name = 'ecom_db';
+$db_name = 'recipe_app_db';
 
 $conn = new mysqli($servername, $username, $password, $db_name);
 
