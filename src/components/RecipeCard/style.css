@@ -1,0 +1,19 @@
+.recicard {
+    width: 200px;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .recicard > div {
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .recicard > div > p:first-child {
+    font-size: 14px;
+  }
+  
+  .recicard > div > p:last-child {
+    font-size: 10px;
+  }
+  

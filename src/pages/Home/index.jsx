@@ -5,8 +5,11 @@ import RecipeCard from "../../components/RecipeCard";
 
 const Home = () => {
   return (
-    <div className="flex column page">
+    <div className="flex column page ">
       <h2>4 recipes</h2>
+      <RecipeCard/>
+      <RecipeCard/>
+      <RecipeCard/>
       <RecipeCard/>
     </div>
   );

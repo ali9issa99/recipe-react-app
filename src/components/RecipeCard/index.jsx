@@ -4,7 +4,7 @@ import Button from "../../base/Button";
 
 const RecipeCard = ({ color, category, onMakeFavorite }) => {
   return (
-    <div className={`flex column rounded ${color}-bg quiz`}>
+    <div className={`flex column rounded ${color}-bg recicard`}>
       <div className="flex full-width">
         <p className="white-text">{category}</p>
       </div>
